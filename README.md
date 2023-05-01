@@ -1,54 +1,62 @@
 # BookExchnager
-Online Book Exchanger is a website which can be used to exchange books With in a community. with a purpose of This system is developed helping users to sell or buy books. Any user can register to search for a book and obtain the seller and buyer information. The user can also put in a request online to exchange or sell a book. 
-A Java Web Developement Project
-### About A user-friendly Online Bookstore project in which users can log in or register, view the available books, select books along with their quantity, and buy them. Users can also get payment receipts after successful payment. The project can also be used by the administrator, who can add new books, remove books, increase and decrease the quantity of books, change the price of the books as well as maintain the selling history of books.
-![BookExchanger online bookstore](https://user- This Website is built for following purpose:-
+- A Java Web Developement Project
+- 
+<hr>
+### About
+A user-friendly Online Bookstore project in which users can log in or register, view the available books, select books along with their quantity, and buy them. Users can also get payment receipts after successful payment. The project can also be used by the administrator, who can add new books, remove books, increase and decrease the quantity of books, change the price of the books as well as maintain the selling history of books.
 
-For Selling books online.
-Maintaining books selling history.
-Adding and managing books.
-User Friendly.
-For Implementation of Http Servlets in Java.
-This is a Mini-project developed using Java, Jdbc, And Servlets.
-Admin Have Following Access for this online store site:-
+![onlinebookstore](https://user- <span style="color:blue">**This Website is built for following purpose:-**</span>
+- For Selling books online.
+- Maintaining books selling history.
+- Adding and managing books.
+- User Friendly.
+- For Implementation of Http Servlets in Java.
+- This is a Mini-project developed using Java, Jdbc, And Servlets.
 
-Add New Books.
-View Books Available.
-Remove Books.
-Increase Books Amount.
-Users Have Following Access for this online store site:-
+<span style="color:blue">**Admin Have Following Access for this online store site:-**</span>
+- Add New Books.
+- View Books Available.
+- Remove Books.
+- Increase Books Amount.
 
-Create New Account or Register.
-Login.
-View Available Books.
-Select Books to Buy.
-Select Books Quantity.
-Buy Books.
-Get Payment Receipt.
-Technologies used:-
-Front-End Development:
-Html 5.
-CSS.
-Javascript.
-Back-End Development:
-Java [JDK 8+]
-JDBC
-Servlet
-Database:
-MySql
-================ Software And Tools Required ================
-Eclipse [Enterprise Edition]
-Java [JDK 8+]
-Tomcat v8.0+
-Apache Maven
-MySQL
-================= Dummy Database Initialization =================
+<span style="color:blue">**Users Have Following Access for this online store site:-**</span>
+- Create New Account or Register.
+- Login.
+- View Available Books.
+- Select Books to Buy.
+- Select Books Quantity.
+- Buy Books.
+- Get Payment Receipt.
+
+### Technologies used:-
+1. Front-End Development:
+- Html 5.
+- CSS.
+- Javascript.
+
+2. Back-End Development:
+- Java [JDK 8+]
+- JDBC
+- Servlet
+
+3. Database:
+- MySql
+
+### ================ Software And Tools Required ================
+- Eclipse [Enterprise Edition]
+- Java [JDK 8+]
+- Tomcat v8.0+
+- Apache Maven
+- MySQL
+
+### ================= Dummy Database Initialization =================
+
 STEP 1: Open MySQL Command Prompt or MySQL Workbench
 
-STEP 2: Login to the administrator user as : mysql -u <username> -p (Enter Password if asked)
+STEP 2: Login to the administrator user as : ```mysql -u <username> -p``` (Enter Password if asked)
 
 STEP 3: Copy paste the following MySql Commands-
-
+```MySQL
 create database if not exists onlinebookstore;
 
 use onlinebookstore;
@@ -72,7 +80,6 @@ insert into books values('9780132778046','Effective Java','Joshua Bloch',368,21)
 insert into books values('9781484255995','Practical Rust Projects','Shing Lyu',257,15);
 insert into users values('demo','demo','Demo','User','Demo Home','42502216225','demo@gmail.com',2);
 insert into users values('Admin','Admin','Mr.','Admin','Haldia WB','9584552224521','admin@gmail.com',1);
-insert into users values('shivani','shivani','shivani','rathore','madhyapradesh','1236547089','shivani.03rathore@gmail.com',2);
+insert into users values('shashi','shashi','Shashi','Raj','Bihar','1236547089','shashi@gmail.com',2);
 
 commit;
-Note:- Considering this as a Sample Project, we have not much considered of web security.
