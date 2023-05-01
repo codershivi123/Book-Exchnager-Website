@@ -84,23 +84,22 @@ insert into users values('shashi','shashi','Shashi','Raj','Bihar','1236547089','
 
 commit;
 
+### Some Screenshots for the Project
 
-Note:- Considering this as a Sample Project, we have not much considered of web security.
-#### Some Screenshots for the project:
 1.FRONT PAGE
-![PROJECT](https://user-images.githubusercontent.com/114331816/235481621-4773d092-cf46-4bc9-8196-cdb9d309d6f6.png)
+![PROJECT](https://user-images.githubusercontent.com/107781396/235483539-ca59c0f9-2600-43dc-b3f4-b5ec2088cc0b.png)
 
 2.LOGIN PAGE
-![project 2](https://user-images.githubusercontent.com/114331816/235481899-81c78295-a30b-434b-b1da-2bde5f021b10.png)
+![project 2](https://user-images.githubusercontent.com/107781396/235483636-a1bc8475-5f00-46a8-afcb-837e27ee2941.png)
 
 3.USER REGISTRATION PAGE
-![project 3](https://user-images.githubusercontent.com/114331816/235482042-d535f7cd-99ee-45f1-ac97-8e3dca485ca6.png)
+![project 3](https://user-images.githubusercontent.com/107781396/235483759-a48ebc22-58db-440c-989d-43acddccae95.png)
 
-4.AVAILABLE BOOKS
-![project 4](https://user-images.githubusercontent.com/114331816/235482283-4e1f8f30-0624-4823-b3b3-cb8bbb4acc00.png)
+4.AVAIBALE BOOKS
+![project 4](https://user-images.githubusercontent.com/107781396/235484008-f8f2be27-c66c-45f6-aabc-32324e0abd66.png)
 
 5.CHECKOUT AND PAYMENT PAGE
-![prject 5](https://user-images.githubusercontent.com/114331816/235482541-3ee9844c-d315-48c4-ab56-f4fc7c1fb2c1.png)
+![prject 5](https://user-images.githubusercontent.com/107781396/235484220-1d95f0f8-c55c-43a3-bf66-b99b9816fdd9.png)
 
 
 
